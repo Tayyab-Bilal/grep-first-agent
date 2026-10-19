@@ -12,7 +12,7 @@ from typing import Any, Protocol
 from langchain_core.messages import AIMessage, BaseMessage, HumanMessage, SystemMessage, ToolMessage
 from langchain_core.tools import BaseTool
 
-from .contract import KINDS, ContractError, ScoutResult, Pointer, parse_result
+from .contract import KINDS, ContractError, Pointer, ScoutResult, parse_result
 from .items import rows_of
 from .security import scrub_tool_result
 from .tools import PinResolver

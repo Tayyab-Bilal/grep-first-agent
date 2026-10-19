@@ -5,7 +5,7 @@ import json
 
 from langchain_core.messages import AIMessage, ToolMessage
 
-from grep_first_agent import ScoutAgent, FakeWorkspaceAPI, ProjectionCache, make_pin_resolver, make_tools
+from grep_first_agent import FakeWorkspaceAPI, ProjectionCache, ScoutAgent, make_pin_resolver, make_tools
 from grep_first_agent.chat_history import ChatHistory
 from grep_first_agent.fake_model import tool_turn
 from grep_first_agent.items import rows_of
